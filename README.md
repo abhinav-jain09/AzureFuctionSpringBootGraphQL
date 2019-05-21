@@ -1,7 +1,7 @@
 # Spring Boot with GraphQL Query Example
 
 ## Book Store
-- `/rest/books` is the REST resource which can fetch Books information
+- `/api/product` is the REST resource which can fetch Books information
 - DataFetchers are Interfaces for RuntimeWiring of GraphQL with JpaRepository
 
 ## Sample GraphQL Scalar Queries
