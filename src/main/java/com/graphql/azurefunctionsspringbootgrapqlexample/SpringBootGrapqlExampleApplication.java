@@ -21,7 +21,6 @@ public class SpringBootGrapqlExampleApplication {
 	}
 	@Bean
 	public Function<String, ExecutionResult> ContentHandler() {
-		System.out.println("I am inside fucntion java");
 		return input -> graphQLService.getGraphQL().execute(input);
 	}
 }
